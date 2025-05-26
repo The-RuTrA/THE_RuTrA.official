@@ -1,0 +1,359 @@
+:root {
+  --bg: #140022;
+  --card-bg: #1f0b35;
+  --primary: #a678f2;
+  --accent: #d6a8ff;
+  --text: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 2.5rem;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(166, 120, 242, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  color: var(--primary);
+}
+
+.alias {
+  color: var(--accent);
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+  color: var(--accent);
+}
+
+h3 {
+  color: var(--primary);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p, li, blockquote {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "• ";
+  color: var(--accent);
+  margin-right: 5px;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.8rem 1rem;
+  border-left: 4px solid var(--accent);
+  margin: 0.5rem 0;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+input, textarea {
+  padding: 0.6rem 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #2a1245;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid var(--primary);
+}
+
+button {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: var(--accent);
+}
+:root {
+  --bg: #140022;
+  --card-bg: #1f0b35;
+  --primary: #a678f2;
+  --accent: #d6a8ff;
+  --text: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 2.5rem;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(166, 120, 242, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  color: var(--primary);
+}
+
+.alias {
+  color: var(--accent);
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+  color: var(--accent);
+}
+
+h3 {
+  color: var(--primary);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p, li, blockquote {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "• ";
+  color: var(--accent);
+  margin-right: 5px;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.8rem 1rem;
+  border-left: 4px solid var(--accent);
+  margin: 0.5rem 0;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+input, textarea {
+  padding: 0.6rem 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #2a1245;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid var(--primary);
+}
+
+button {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: var(--accent);
+}
+
+.portfolio-slider {
+  margin-top: 2rem;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slides {
+  overflow: hidden;
+  width: 100%;
+  max-width: 400px;
+  height: 180px;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.slide.active {
+  opacity: 1;
+  position: relative;
+}
+
+.slide h4 {
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.slide p {
+  margin-bottom: 0.5rem;
+}
+
+.slider-btn {
+  background: none;
+  border: none;
+  color: var(--primary);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 1rem;
+  transition: color 0.2s;
+}
+
+.slider-btn:hover {
+  color: var(--accent);
+}
+
+.copy-email {
+  cursor: pointer;
+  color: var(--primary);
+  text-decoration: underline dotted;
+}
+
+.copy-email:hover {
+  color: var(--accent);
+}
+
+.copy-msg {
+  margin-left: 10px;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+body {
+  background: linear-gradient(135deg, #2c003e, #4a0068);
+  color: #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  transition: background 0.3s ease;
+}
+
+:root {
+  --bg-color: #2c003e;
+  --text-color: #ddd;
+  --accent: #9f4de5;
+  --primary: #a282e7;
+}
+
+body.light {
+  --bg-color: #bc9cf0;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease;
+}
